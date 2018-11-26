@@ -22,7 +22,7 @@ def download_image(key_url):
     filename = os.path.join(OUT_DIR, '{}.jpg'.format(key))
     
     if os.path.exists(filename):
-        print('Image {} already exists. Skipping download.'.format(filename))
+        # print('Image {} already exists. Skipping download.'.format(filename))
         return 0
     
     try:
